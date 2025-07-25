@@ -1,0 +1,390 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+#leftnav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+margin-left: 140px;
+}
+
+.mainlinks {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: black;
+  position: relative;
+  left: -100px;
+}
+
+.main-links {
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+#mainlinks .nav-link {
+  color: black;
+}
+
+#mainlinks .nav-link:hover {
+  color: #f7931e;
+}
+
+.login {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  gap: 20px ;
+  position: relative;
+  left: -200px;
+  color: black;
+}
+
+.join {
+  width: 100px;
+}
+
+.hero-title {
+  margin-top: 60px;
+  font-size: 3.6rem;
+  font-weight: 380;
+  line-height: 1.3;
+  color: #000;
+  margin-left: -140px;
+}
+
+.leftmain {
+  position:relative;
+  left: -400px;
+}
+.textblack {
+  position: relative;
+  text-align: right;
+  left: 110px;
+  font-size: 3.8rem;
+  font-weight: 380;
+  color: black;
+}
+
+.avatars {
+  position: relative;
+  left: -130px;
+}
+
+
+
+.mini-avatar {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
+#av1 {
+  position: relative;
+  width: 162px;
+height: 163px;
+top: -70px;
+left: -60px;
+border-radius: 80px;
+angle: 0 deg;
+opacity: 1;
+
+}
+
+#av2 {
+  position: relative;
+  width: 162px;
+height: 163px;
+top: -70px;
+left: -200px;
+border-radius: 80px;
+angle: 0 deg;
+opacity: 1;
+
+}
+#av3 {
+  position: relative;
+  width: 162px;
+height: 163px;
+top: -70px;
+left: -330px;
+border-radius: 80px;
+angle: 0 deg;
+opacity: 1;
+}
+
+.line {
+  position: relative;
+  width: 550px;
+height: 1px;
+top: -150px;
+left: -150px;
+angle: 0 deg;
+opacity: 1;
+border-width: 1px;
+background-color: gray ;
+}
+
+.mission {
+  position: relative;
+  top: -100px;
+  left: -150px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.mission-label {
+ font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 1.5rem;
+leading-trim: NONE;
+line-height: 148%;
+letter-spacing: 0%;
+color: black;
+}
+
+.mission-text {
+   font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  color: black;
+}
+
+
+.stat {
+     font-family: 'Roboto', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 550;
+}
+
+.stat small {
+     font-family: 'Roboto', sans-serif;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 520;
+  color: black;
+}
+
+.info-card {
+  width: 150px;
+  height: 130px;
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.info-card h5 {
+font-weight: 400;
+font-size: 42px;
+leading-trim: NONE;
+line-height: 126%;
+letter-spacing: 0%;
+}
+
+.info-card span {
+font-weight: 400;
+font-size: 35px;
+leading-trim: NONE;
+line-height: 126%;
+letter-spacing: 0%;
+}
+
+
+.cards {
+  position: relative;
+  top: -100px;
+  left: -150px;
+}
+
+
+.orange {
+    font-family: 'Roboto', sans-serif;
+  background-color: #DB7C0A;
+  border-top-right-radius: 50px;
+  color: black;
+  width: 300px;
+height: 300px;
+top: 721px;
+left: 83px;
+border-radius: 30px;
+padding-left: 10px;
+text-align: left;
+align-content: flex-start;
+
+}
+
+.gray {
+    font-family: 'Roboto', sans-serif;
+  background-color: #e8e8e8;
+  color: black;
+  width: 300px;
+height: 300px;
+top: 721px;
+left: 433px;
+border-radius: 30px;
+
+}
+
+.icon {
+  margin-top: -164px;
+  margin-left: -100%;
+}
+
+.hero-right {
+  position: relative;
+  top: -100px;
+  right: -70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews {
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 100px;
+  position: relative;
+  left: -80px;
+}
+
+.profile-img {
+  position: relative;
+width: 510px;
+height: 510px;
+top: 90px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 50px;
+}
+
+
+.explore-btn {
+  padding: 12px 20px;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 554px;
+height: 82px;
+border-radius: 130px;
+position: relative;
+top: 20px;
+background-color: #000;
+}
+
+
+
+@media (max-width: 768px) {
+
+#leftnav {
+position: relative;
+left: -160px;
+font-size: 23px;
+}
+
+#mainlinks {
+  margin-left: 100px;
+}
+
+.nav-link {
+margin-left: -400px
+}
+
+.login {
+  position: relative;
+}
+
+.hero-title {
+  position: relative;
+right: -140px;
+font-size: 2.5rem;
+}
+
+.textblack {
+  font-size: 2.5rem;
+  right: -60px;
+}
+
+.avatars {
+  position: relative;
+  right: -100px;
+  margin-bottom: -10px;
+  margin-left: 150px;
+}
+
+
+.line {
+    position: relative;
+right: -180px;
+margin-left: 150px;
+width: 400px;
+}
+
+.mission {
+  position: relative;
+  left: 10px;
+
+}
+.stat {
+font-size: 2.3rem;
+}
+
+.stat small {
+ font-size: 1.4rrem;
+}
+
+.cards {
+position: relative;
+left: -8px;
+}
+.orange {
+  width: 250px;
+  height: 280px;
+}
+
+.gray {
+  width: 250px;
+  height: 280px;
+}
+.reviews {
+gap: 10px;
+margin-left: 30px;
+}
+
+.profile-img {
+  position: relative;
+left: -50px;
+width: 350px;
+height: 350px;
+}
+
+
+.explore-btn {
+  width: 400px;
+  position: relative;
+  left: -80px;
+  font-size: 1.1rem ;
+  padding-bottom: -30px;
+  padding-top: 20px;
+}
+
+}
+

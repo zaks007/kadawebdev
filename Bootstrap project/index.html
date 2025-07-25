@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trulance</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white px-4 py-3 border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" id="leftnav" href="#">Trulance.</a>
+
+    <!-- Mobile toggler -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainlinks"
+      aria-controls="mainlinks"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainlinks">
+      <ul class="navbar-nav mx-auto gap-4 text-center main-links">
+        <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Become a seller</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Log In</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Join</a></li>
+      </ul>
+
+      <!-- Desktop login/join -->
+      <div class="d-none d-lg-flex login align-items-center">
+        <a class="btn btn-dark rounded-pill me-2" href="#">Log In</a>
+        <a class="btn btn-outline-dark rounded-pill join" href="#">Join</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- MAIN SECTION -->
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <!-- LEFT COLUMN -->
+      <div class="col-md-6 left-main">
+        <h1 class="hero-title mb-3">
+          FIND THE RIGHT<br />
+          FREE LANCE SERVICE,<br />
+          <span class="text-black textblack">RIGHT AWAY</span>
+        </h1>
+
+        <!--Profile Thumbnails-->
+        <div class="d-flex mb-4 avatars">
+          <img src="avatar1.png" class="mini-avatar" id="av1" />
+          <img src="avatar2.png" class="mini-avatar" id="av2"/>
+          <img src="avatar3.png" class="mini-avatar" id="av3"/>
+        </div>
+
+        <div class="line">
+        </div>
+
+        <!-- Mission -->
+        <div class="mb-4 mission">
+          <p class="mission-label">MISSION</p>
+          <p class="mission-text">
+            Ut enim ad minim veniam, quis nostrud exercitation<br />
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="d-flex cards">
+          <div class="info-card orange me-3 w-97">
+            <div>
+              <img src="star.png" class="icon">
+            </div>
+            <h5>1500+<br /><span>Services</span></h5>
+          </div>
+          <div class="info-card gray">
+            <div>
+              <img src="star2.png" class="icon">
+            </div>
+            <h5>24/7<br /><span>Support</span></h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-md-6 text-center mt-5 mt-md-0 hero-right">
+        <img src="man.png" class="profile-img mb-4" />
+
+        <div class="d-flex justify-content-center mb-3 reviews">
+          <div class="me-4">
+            <h5 class="stat">100k+<br /><small>FREELANCES</small></h5>
+          </div>
+          <div>
+            <h5 class="stat">50 K+<br /><small>4.7 STAR REVIEW</small></h5>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-dark rounded-pill explore-btn">
+          EXPLORE TRULANCE TALENT         →
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
